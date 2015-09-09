@@ -19,9 +19,12 @@
         "ext-mbstring": "*",
         "react/react": ">=0.4.1",
 		"kakserpom/phpdaemon" : "dev-master",
+		
 		"guzzlehttp/psr7" : "*",
         "syscode/sofi-router": "*",
-        "raveren/kint": "^1.0"
+        "raveren/kint": "^1.0",
+
+		"ezyang/htmlpurifier": "4.6.*"
     },
 
     "require-dev": {
