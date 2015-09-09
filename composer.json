@@ -17,14 +17,22 @@
     "require": {
         "php": ">=5.6.0",
         "ext-mbstring": "*",
+
         "react/react": ">=0.4.1",
 		"kakserpom/phpdaemon" : "dev-master",
 		
 		"guzzlehttp/psr7" : "*",
         "syscode/sofi-router": "*",
-        "raveren/kint": "^1.0",
+        "symfony/var-dumper": "2.7.*", 
 
-		"ezyang/htmlpurifier": "4.6.*"
+		"monolog/monolog": "~1.11",
+
+		"nesbot/carbon": "~1.19",
+		"danielstjules/stringy": "~1.8",
+
+		"ezyang/htmlpurifier": "4.6.*",
+		"twig/twig": "~1.0",
+		"swiftmailer/swiftmailer": "~5.0"
     },
 
     "require-dev": {
