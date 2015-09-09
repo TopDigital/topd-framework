@@ -23,6 +23,11 @@
         "syscode/sofi-router": "*",
         "raveren/kint": "^1.0"
     },
+
+    "require-dev": {
+		"codeception/codeception" : "~2.0"
+    },
+
     "autoload": {
         "psr-4": {"TopD\\": "src"}
     },
